@@ -38,3 +38,10 @@ Frontend
 Backend..
 1. User database 
 2. List of matches
+
+
+Stack
+1. Python for the controller
+2. JSON for the model
+3. React for the view
+4. Flask ? for the API's
