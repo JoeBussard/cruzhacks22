@@ -15,3 +15,26 @@ Ideas discussed at meeting......
 7. Google cloud
 - use it for hosting
 - use maps API for local internships
+
+Ideas from the Google Doc
+
+Frontend
+1. Sign In
+    a. Google API for login information
+2. Profile
+    a. Name
+    b. Interests
+    c. Skills
+    d. Projects
+    e. Location
+
+3. View the people who matched criteria / Swipe left or right
+    a. GET list of people / or the next person on the list / batch of 10 people
+    b. POST swiped left or right
+    c. If : that person has already swiped right on you, then enable chat
+    Two people have matched
+4. 1-1 Chat
+
+Backend
+1. User database 
+2. List of matches
