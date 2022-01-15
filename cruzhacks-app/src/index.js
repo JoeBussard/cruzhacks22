@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+class App extends React.Component {
+  render() {
+    return <h1>Hello world!</h1>
+  }
+}
+
 
 ReactDOM.render(
   <React.StrictMode>
