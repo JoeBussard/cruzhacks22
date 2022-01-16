@@ -2,38 +2,27 @@ import logo from './logo.svg';
 import './App.css';
 import Table from './Table';
 import Profile from './Profile';
+import ProfileEditor from './ProfileEditor';
 import React, { Component } from 'react';
+import mockDatabase from './mockDatabase.json'
 
 
 class App extends Component {
   state = {
-    testProfileJoe : [
-      {
-      "firstName": "Joe",
-      "lastName": "Bussard",
-      "headline": "Recent Grad",
-      "emailAddress": "jbussard@ucsc.edu",
-      "interests": [
-        "Free Software",
-        "Web Apps"],
-      "city": "Los Angeles",
-      "state": "California",
-      "skills": [
-        "Linux",
-        "git",
-        "JSON"]
-      }
-    ]
+    mockDB : mockDatabase
   };
   render() { 
-    const {testProfileJoe} = this.state;
+    const {mockDB} = this.state;
+    let userEmail = 'juan@example.com';
+    const userData = mockDatabase.users.filter(user => user.emailAddress === userEmail)
   
     return (
       <div className="App">
           <p>
             StudentStartUp for finding students to start new projects.
           </p>
-         <Profile userEmail="juan@example.com" />
+         <Profile userProfile={userData} />
+         <ProfileEditor userProfile={userData}/>
       </div>
     );
   }
