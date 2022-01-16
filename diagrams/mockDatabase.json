@@ -1,6 +1,6 @@
-{"users":
-  [ 
-    {
+{
+"users": [
+  {
       "firstName": "Joe",
       "lastName": "Bussard",
       "headline": "Recent Grad",
@@ -14,7 +14,7 @@
         "Linux",
         "git",
         "JSON"]
-    },
+      },
     {
       "firstName": "Jacob",
       "lastName": "Low",
