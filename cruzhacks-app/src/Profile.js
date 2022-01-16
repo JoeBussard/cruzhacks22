@@ -4,13 +4,10 @@ import mockDatabase from './mockDatabase.json'
 class Profile extends Component {
 
   render() {
-    const {userEmail} = this.props;
-    const fromDB = mockDatabase;
-    console.warn(typeof(userEmail), userEmail);
-    const userProfile = mockDatabase.users.filter(user => user.emailAddress === userEmail)
+    const {userProfile} = this.props;
+    //let data = userProfile;
     return (
       <div className='profile'>
-        <h1>Your Profile</h1>
         <div>
           {userProfile.map(data =>{
             return (

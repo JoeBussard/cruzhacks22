@@ -5,6 +5,7 @@ import Profile from './Profile';
 import ProfileEditor from './ProfileEditor';
 import React, { Component } from 'react';
 import mockDatabase from './mockDatabase.json'
+import Swiper from './Swiper';
 
 
 class App extends Component {
@@ -21,8 +22,14 @@ class App extends Component {
           <p>
             StudentStartUp for finding students to start new projects.
           </p>
+          <h1>Your Profile</h1>
          <Profile userProfile={userData} />
+         <br/>
+         <hr/>
          <ProfileEditor userProfile={userData}/>
+         <br/>
+         <hr/>
+         <Swiper/>
       </div>
     );
   }
