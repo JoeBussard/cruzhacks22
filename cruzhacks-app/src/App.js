@@ -31,10 +31,9 @@ class App extends Component {
     return (
       <div className="App">
           <p>
-            Find hackers who want to work on projects with you.
+            StudentStartUp for finding students to start new projects.
           </p>
-        <Table />
-         <Profile profileData={testProfileJoe} />
+         <Profile userEmail="juan@example.com" />
       </div>
     );
   }
