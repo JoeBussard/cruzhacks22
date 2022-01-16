@@ -1,0 +1,15 @@
+{
+  "firstName": "Joe",
+  "lastName": "Bussard",
+  "headline": "Recent Grad",
+  "emailAddress": "jbussard@ucsc.edu",
+  "interests": [
+    "Free Software",
+    "Web Apps"],
+  "city": "Los Angeles",
+  "state": "California",
+  "skills": [
+    "Linux",
+    "git",
+    "JSON"]
+}
