@@ -27,7 +27,7 @@ class ProfileEditor extends Component {
                     <textarea>{skill}</textarea>
                   );
                 })}
-                                
+
               </div>
             )
           })}

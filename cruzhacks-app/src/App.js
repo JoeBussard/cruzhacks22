@@ -24,12 +24,13 @@ class App extends Component {
             StudentStartUp for finding students to start new projects.
           </p>
           <h1>Your Profile</h1>
-         <Profile userProfile={userData} />
+      <h1 style={{backgroundColor: "yellow", color:"green"}}>Profile component</h1>
+         <Profile userProfile={userData}/>
          <br/>
-         <hr/>
+      <h1 style={{backgroundColor: "yellow", color:"green"}}>ProfileEditor component</h1>
          <ProfileEditor userProfile={userData}/>
          <br/>
-         <hr/>
+      <h1 style={{backgroundColor: "yellow", color:"green"}}>Swiper component</h1>
          <Swiper/>
       </div>
     );

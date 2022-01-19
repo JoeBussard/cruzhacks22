@@ -5,7 +5,6 @@ class Profile extends Component {
 
   render() {
     const {userProfile} = this.props;
-    //let data = userProfile;
     return (
       <div className='profile'>
         <div>
@@ -20,7 +19,7 @@ class Profile extends Component {
                       return (
                         <li>{interest}</li>
                       ) ;
-                      })}   
+                      })}
                   <h4>Skills:</h4>
                       {data.skills.map(skill => {
                       return (
