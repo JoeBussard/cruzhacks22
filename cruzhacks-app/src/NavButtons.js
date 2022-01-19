@@ -1,8 +1,6 @@
-import React, {Component} from 'react'
-import mockDatabase from './mockDatabase.json'
-
-class NavButtons extends Component {
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const react_1 = require("react");
+class NavButtons extends react_1.Component {
 }
-
-export default NavButtons
+exports.default = NavButtons;

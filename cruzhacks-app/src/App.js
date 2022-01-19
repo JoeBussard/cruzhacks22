@@ -6,17 +6,18 @@ import ProfileEditor from './ProfileEditor';
 import React, { Component } from 'react';
 import mockDatabase from './mockDatabase.json'
 import Swiper from './Swiper';
+import NavButtons from './NavButtons.tsx';
 
 
 class App extends Component {
   state = {
     mockDB : mockDatabase
   };
-  render() { 
+  render() {
     const {mockDB} = this.state;
     let userEmail = 'juan@example.com';
     const userData = mockDatabase.users.filter(user => user.emailAddress === userEmail)
-  
+
     return (
       <div className="App">
           <p>
